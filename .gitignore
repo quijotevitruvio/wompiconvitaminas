@@ -1,0 +1,29 @@
+# Wompi con Vitaminas - .gitignore
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build assets (Optional: depending on strategy, but for direct usage we keep build/)
+# build/ 
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+error_log
+
+# WordPress/Local Config
+wp-config.php
+.env
+.htaccess
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+v509-fresh.php
+wompi-enhancer.css

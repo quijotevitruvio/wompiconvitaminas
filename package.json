@@ -1,0 +1,14 @@
+{
+  "name": "wompi-con-vitaminas",
+  "version": "5.4.0",
+  "description": "Wompi con Vitaminas: Enterprise Gateway for WooCommerce Blocks",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
