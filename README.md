@@ -5,54 +5,54 @@
 ![React](https://img.shields.io/badge/React-18-61dafb.svg)
 ![WooCommerce](https://img.shields.io/badge/WooCommerce-Blocks-blue)
 
-¡Ojo pues! Este no es cualquier plugin de Wompi. Este es el **Wompi con Vitaminas**, la versión más berraca y blindada para meterle los nuevos **Bloques de Checkout** de WooCommerce sin que te de dolores de cabeza. 
+Hola 👋. Este es **Wompi con Vitaminas**, una integración pensada para los que necesitan que la pasarela de Wompi funcione de verdad con el nuevo Checkout de Bloques de WooCommerce. 
 
-Si estabas buscando una integración que no sea una basura, que sea rápida y que te de datos de verdad, ¡llegaste al sitio que era!
-
----
-
-## 🔥 ¿Por qué este plugin es de otro nivel?
-
-### 🛡️ Blindaje Pro (Seguridad SHA256)
-Aquí no jugamos con la plata. Tenemos validación criptográfica de webhooks para que nadie se te meta al rancho. La seguridad es nivel bancario.
-
-### 📊 Datos que sirven (Payment Insights)
-¿Cansado de no saber cómo te pagaron? Este bicho te dice si usaron **PSE, Tarjeta, Nequi o Corresponsal**. Guarda todo el chisme en el pedido para que la conciliación sea un paseo.
-
-### 🌍 Listo para el mundo (Global Ready)
-- **Moneda**: Solo activa si tienes **COP**, para que no te metas en líos de tasas de cambio raras.
-- **Traducción**: Todo el código está listo para que lo pongas en el idioma que se te de la gana.
-
-### 🎨 Pinta Premium
-- Diseño **Glassmorphism** que se ve una belleza en cualquier tienta.
-- Animación **Trust Pulse** para que el cliente sienta que está en un sitio seguro de verdad.
+Nada de vueltas raras ni configuraciones que no funcionan. Aquí tienes seguridad, datos claros y una interfaz que se ve muy bien en cualquier tienda.
 
 ---
 
-## 🚀 Instalación Rápida
+## ✨ Lo que trae esta versión
 
-1. Baja el proyectazo y mételo en `/wp-content/plugins/lm-wompi-blocks-ui`.
-2. Actívalo y vete a **WooCommerce > Ajustes > Pagos**.
-3. Mete tus llaves de Wompi y ¡listo!
-4. **MOSCA AQUÍ**: No olvides poner el Webhook en el panel de Wompi:
+### 🛡️ Seguridad Real (SHA256)
+Usamos validación de firmas criptográficas para que los pagos sean 100% seguros y no tengas que preocuparte por nada.
+
+### 📊 Datos útiles (Payment Insights)
+Olvídate de adivinar cómo te pagaron. El plugin te guarda si usaron **PSE, Tarjeta, Nequi o Corresponsal**, todo directo en las notas del pedido.
+
+### 🌍 Listo para usar
+- **Moneda**: Solo se activa si usas **COP**, para evitar confusiones de precios.
+- **Traducción**: Todo el plugin está listo para que lo traduzcas si lo necesitas.
+
+### 🎨 Diseño que fluye
+- Interfaz moderna con estilo **Glassmorphism**.
+- Animaciones sutiles para que el cliente sepa que está comprando en un sitio de confianza.
+
+---
+
+## 🚀 Instalación rápida
+
+1. Sube el plugin a tu carpeta de `/wp-content/plugins/`.
+2. Actívalo y ve a **WooCommerce > Ajustes > Pagos**.
+3. Pon tus llaves de Wompi y listo.
+4. **No olvides** configurar el Webhook en tu panel de Wompi:
    `https://tu-dominio.com/wp-json/wc-wompi/v1/webhook`
 
 ---
 
-## 🛠 Fierros Técnicos
+## 🛠 Detalles Técnicos
 
-- **PHP 8.1+**: Pa' que vuele.
-- **React 18**: Integrado con el futuro de WordPress.
-- **Sin Basura**: Código limpio, purgado y optimizado.
+- **PHP 8.1+**: Rendimiento optimizado.
+- **React 18**: Integración nativa con los bloques de WooCommerce.
+- **Código Limpio**: Sin dependencias pesadas ni cosas que no usas.
 
 ---
 
-## 👤 El Autor
+## 👤 Autor
 
-**Andrés Valencia Tobón (quijotevitruvio)**
+**Andrés Valencia Tobón**
 - GitHub: [@quijotevitruvio](https://github.com/quijotevitruvio)
 
 ---
 
 > [!NOTE]
-> *Optimizado con toda la potencia de **Antigravity AI**.*
+> *Optimizado con **Antigravity AI**.*
