@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Wompi con Vitaminas (Blocks & Gateway)
  * Description: Pasarela de pago Wompi nativa para Checkout Blocks con interfaz visual premium mejorada.
- * Version: 5.4.0
+ * Version: 5.5.0
  * Author: Andrés Valencia Tobón
  */
 
@@ -44,7 +44,7 @@ class LM_Wompi_Blocks_UI
         add_action('wp_head', function () {
             $data = get_option('woocommerce_wompi_vitaminas_pro_settings');
             $status = !empty($data) ? 'ACTIVE' : 'NO_DATA';
-            echo "\n<!-- 🚀 WOMPI EXPERT v5.4.0 | STATUS: " . esc_attr($status) . " -->\n";
+            echo "\n<!-- 🚀 WOMPI EXPERT v5.5.0 | STATUS: " . esc_attr($status) . " -->\n";
         }, 1);
 
         // Registro de Webhook
@@ -116,7 +116,7 @@ class LM_Wompi_Blocks_UI
         error_log('LM WOMPI DEBUG: Registering script from ' . $script_url);
         error_log('LM WOMPI DEBUG: Asset path is ' . $asset_path);
 
-        $version = '5.4.0';
+        $version = '5.5.0';
         $dependencies = [
             'wc-blocks-registry',
             'wc-settings',

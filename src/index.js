@@ -1,7 +1,8 @@
-console.log('%c🚀 WOMPI VANGUARD: Global & Insights [v5.4.0]...', 'color: #3b82f6; font-size: 16px; font-weight: bold;');
+console.log('%c🚀 WOMPI VANGUARD: Global & Insights [v5.5.0]...', 'color: #3b82f6; font-size: 16px; font-weight: bold;');
 
 const { registerPaymentMethod } = window.wc ? window.wc.wcBlocksRegistry : {};
 const { getSetting } = window.wc ? window.wc.wcSettings : {};
+const { decodeEntities } = window.wp ? window.wp.htmlEntities : { decodeEntities: (str) => str };
 
 if (!registerPaymentMethod) {
     console.error('❌ WOMPI ERROR: registerPaymentMethod NOT found');
@@ -19,7 +20,7 @@ const Label = ( props ) => {
 		<span>{ settings.title || '💳 Wompi (Pasarela Segura)' }</span>
 	);
 
-	return <WompiLabel settings={settings} titleElement={titleElement} />;
+	return <div className="wompi-label-container" style={{ display: 'flex', alignItems: 'center' }}>{titleElement}</div>;
 };
 
 const Content = () => {
