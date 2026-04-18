@@ -1,4 +1,6 @@
-console.log('%c🚀 WOMPI VANGUARD: Global & Insights [v5.5.0]...', 'color: #3b82f6; font-size: 16px; font-weight: bold;');
+console.log('%c🚀 WOMPI VANGUARD: Global & Insights [v5.5.1]...', 'color: #3b82f6; font-size: 16px; font-weight: bold;');
+
+import WompiLabel from './components/WompiLabel';
 
 const { registerPaymentMethod } = window.wc ? window.wc.wcBlocksRegistry : {};
 const { getSetting } = window.wc ? window.wc.wcSettings : {};
@@ -20,7 +22,7 @@ const Label = ( props ) => {
 		<span>{ settings.title || '💳 Wompi (Pasarela Segura)' }</span>
 	);
 
-	return <div className="wompi-label-container" style={{ display: 'flex', alignItems: 'center' }}>{titleElement}</div>;
+	return <WompiLabel settings={settings} titleElement={titleElement} />;
 };
 
 const Content = () => {
