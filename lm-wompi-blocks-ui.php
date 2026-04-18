@@ -138,7 +138,7 @@ class LM_Wompi_Blocks_UI
             'lm-wompi-blocks-integration',
             $script_url,
             $dependencies,
-            '5.0.9',
+            $version,
             true
         );
     }
@@ -149,7 +149,7 @@ class LM_Wompi_Blocks_UI
             'lm-wompi-enhancer',
             LM_WOMPI_URL . 'wompi-enhancer.css',
             [],
-            '5.0.9'
+            '5.5.1'
         );
 
         // FORZADO DE SCRIPT PARA DIAGNÓSTICO
